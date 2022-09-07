@@ -39,7 +39,7 @@ function NavBar() {
 
           <li className="nav-item">
             <a
-              href="https://drive.google.com/file/d/1QnmHIlq-5FbxA6yjnBsQlNc-aGICG1ke/view?usp=sharing"
+              href="https://drive.google.com/file/d/1vx6vWU8HouYdPn8lwMJ1Xu4oNBfxHa-9/view?usp=sharing"
               onClick={closeMenu}
             >
               Resume
