@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "./logo.png";
+import Logo from "./images/logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink, Link } from "react-router-dom";
 import "./NavBar.css";

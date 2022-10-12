@@ -1,23 +1,23 @@
 import React from "react";
 import "./BorderlessCaseStudy.css";
-import Frame from "./Frame2.png";
-import Desktop1 from "./Desktop1.png";
-import Desktop2 from "./Desktop2.png";
-import Desktop3 from "./Desktop3.png";
-import Desktop4 from "./Desktop4.png";
-import Desktop5 from "./Desktop5.png";
-import Dashboard1 from "./Dashboard1.png";
-import Dashboard2 from "./Dashboard2.png";
-import Dashboard3 from "./Dashboard3.png";
-import Dashboard4 from "./Dashboard4.png";
-import Frame17 from "./Frame17.png";
-import Frame16 from "./Frame16.png";
-import Borderlesshr from "./Borderlesshr.png";
-import Edit1 from "./Edit1.png";
-import Iteration from "./iteration1.png";
-import Iteration3 from "./iteration3.png";
-import Iteration2 from "./iteration2.png";
-import Vector from "./Vector.png";
+import Frame from "./images/Frame2.png";
+import Desktop1 from "./images/Desktop1.png";
+import Desktop2 from "./images/Desktop2.png";
+import Desktop3 from "./images/Desktop3.png";
+import Desktop4 from "./images/Desktop4.png";
+import Desktop5 from "./images/Desktop5.png";
+import Dashboard1 from "./images/Dashboard1.png";
+import Dashboard2 from "./images/Dashboard2.png";
+import Dashboard3 from "./images/Dashboard3.png";
+import Dashboard4 from "./images/Dashboard4.png";
+import Frame17 from "./images/Frame17.png";
+import Frame16 from "./images/Frame16.png";
+import Borderlesshr from "./images/Borderlesshr.png";
+import Edit1 from "./images/Edit1.png";
+import Iteration from "./images/iteration1.png";
+import Iteration3 from "./images/iteration3.png";
+import Iteration2 from "./images/iteration2.png";
+import Vector from "./images/Vector.png";
 import { Dashboard } from "@mui/icons-material";
 function BorderlessCaseStudy() {
   return (
@@ -49,7 +49,10 @@ function BorderlessCaseStudy() {
 
             <div>
               <h3 className="borderless1h3">Team</h3>
-              <p>I worked in a team of two designers <br/> with feedback from stakeholders.</p>
+              <p>
+                I worked in a team of two designers <br /> with feedback from
+                stakeholders.
+              </p>
             </div>
           </div>
         </div>
@@ -140,34 +143,34 @@ function BorderlessCaseStudy() {
           </p>
 
           <p>
-            This helped us gauge user needs, and pain points felt by tech talents
-            and understand the needs of businesses. These insights included:
-            simplifying the profile creation process, introducing a feedback
-            channel, and getting more details not contained in talent's resume.
+            This helped us gauge user needs, and pain points felt by tech
+            talents and understand the needs of businesses. These insights
+            included: simplifying the profile creation process, introducing a
+            feedback channel, and getting more details not contained in talent's
+            resume.
           </p>
 
           <div className="problem-diagnosis">
-              <img src={Frame17}  alt="macbook" />
-              <img src={Frame16} className="diagnosis-pix" alt="macbook" />
+            <img src={Frame17} alt="macbook" />
+            <img src={Frame16} className="diagnosis-pix" alt="macbook" />
           </div>
 
           <div className="problem-diagnosis2">
-               <img src={Borderlesshr} alt="" />
+            <img src={Borderlesshr} alt="" />
           </div>
 
           <div className="visualising">
-         <h2>Visualizing a User-Centric Experience</h2>
+            <h2>Visualizing a User-Centric Experience</h2>
 
-          <p>
-          After creating user flow which helped me identify key screen needed to 
-          complete a particular task,  I started sketching low-fidelity pages. 
-          This allowed me to explore design patterns, examine and text my ideas before
-          designing high-fidelity designs.  Low fidelity design helped me focus on the 
-          visual consistency and hierarchy before applying styles.
-          </p>
-         </div>
-
-
+            <p>
+              After creating user flow which helped me identify key screen
+              needed to complete a particular task, I started sketching
+              low-fidelity pages. This allowed me to explore design patterns,
+              examine and text my ideas before designing high-fidelity designs.
+              Low fidelity design helped me focus on the visual consistency and
+              hierarchy before applying styles.
+            </p>
+          </div>
         </div>
 
         <div className="borderless">
@@ -273,7 +276,11 @@ function BorderlessCaseStudy() {
       <div className="casestudycontainer2">
         <div className="literation">
           <h1>Design Iteration</h1>
-          <p>To validate design solution we conducted a task-based usability study and we got helpful <br/> feedbacks on how we can improve users experience. </p>
+          <p>
+            To validate design solution we conducted a task-based usability
+            study and we got helpful <br /> feedbacks on how we can improve
+            users experience.{" "}
+          </p>
 
           <div className="literation1">
             <div className="literation-writeup1">
@@ -345,31 +352,47 @@ function BorderlessCaseStudy() {
             </li>
             <li>
               {" "}
-              Testing my designing soluions with low fidelity prototype helped 
+              Testing my designing soluions with low fidelity prototype helped
               me understand how users execpted to complete a task, get feedbacks
-               and implemented changes which led a solid foundation for high-fidelity design.  
+              and implemented changes which led a solid foundation for
+              high-fidelity design.
             </li>
-            <li>Style guide and design system are very important when collaborating with another designer. It helps with visual consistency across different pages</li>
             <li>
-            If the shop profile instilled more trust and loyalty to the products sold by the sellers
+              Style guide and design system are very important when
+              collaborating with another designer. It helps with visual
+              consistency across different pages
+            </li>
+            <li>
+              If the shop profile instilled more trust and loyalty to the
+              products sold by the sellers
             </li>
           </ol>
 
           <div className="view-prototype">
-          <h5>
-            View prototype: <span> <a href="https://www.figma.com/proto/FiKA9LvpEax1wBTPtpbNva/Borderless-Hr?node-id=1496%3A14059&scaling=scale-down-width&page-id=1447%3A13942&starting-point-node-id=1496%3A14059">Click here </a></span>
-          </h5>
-          <h5>
-            View landing page: <span> <a href="https://www.figma.com/proto/FiKA9LvpEax1wBTPtpbNva/Borderless-Hr?node-id=3150%3A23537&scaling=scale-down-width&page-id=3150%3A23534&starting-point-node-id=3150%3A23537">Click here </a></span>
-          </h5>
-          <p className="">
-            <span>Admin dashboard:</span>  I also worked on the admin dashboard
-            but unfortunately my non-disclosure clause prevents me from sharing
-            it.
-          </p>
+            <h5>
+              View prototype:{" "}
+              <span>
+                {" "}
+                <a href="https://www.figma.com/proto/FiKA9LvpEax1wBTPtpbNva/Borderless-Hr?node-id=1496%3A14059&scaling=scale-down-width&page-id=1447%3A13942&starting-point-node-id=1496%3A14059">
+                  Click here{" "}
+                </a>
+              </span>
+            </h5>
+            <h5>
+              View landing page:{" "}
+              <span>
+                {" "}
+                <a href="https://www.figma.com/proto/FiKA9LvpEax1wBTPtpbNva/Borderless-Hr?node-id=3150%3A23537&scaling=scale-down-width&page-id=3150%3A23534&starting-point-node-id=3150%3A23537">
+                  Click here{" "}
+                </a>
+              </span>
+            </h5>
+            <p className="">
+              <span>Admin dashboard:</span> I also worked on the admin dashboard
+              but unfortunately my non-disclosure clause prevents me from
+              sharing it.
+            </p>
           </div>
-
-
         </div>
       </div>
     </div>
@@ -378,6 +401,6 @@ function BorderlessCaseStudy() {
 
 export default BorderlessCaseStudy;
 // a.  In making forms more user-friendly and less overwhelming, I grouped the questions into sections, made location visible and introduced a progress indicator.
-// b. 
-// c.  
-// d.  
+// b.
+// c.
+// d.
