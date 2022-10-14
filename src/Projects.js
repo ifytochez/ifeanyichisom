@@ -4,6 +4,7 @@ import "./Projects.css";
 import Frame from "./images/Frame2.png";
 import Laptop from "./images/Group689.png";
 import Cashiet from "./images/Cashiet-Banner.png";
+import Aibanc from "./images/aibanc.png";
 import { Link } from "react-router-dom";
 
 function Projects() {
@@ -62,7 +63,7 @@ function Projects() {
             </div>
 
             <div className="casee-image">
-              <img />
+              <img className="aibanc" src={Aibanc} alt="aibancbanner" />
             </div>
           </div>
 
