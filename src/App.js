@@ -7,6 +7,7 @@ import BorderlessCaseStudy from './BorderlessCaseStudy'
 import CashietCaseStudy from "./CashietCaseStudy";
 import About from "./About";
 import Footer from "./Footer";
+import AiBanc from "./AiBanc";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <Route path='/about' element={<About/>}/>
       <Route path='/borderlesscasestudy' element={<BorderlessCaseStudy/>}/>
       <Route path='/cashietcasestudy' element={<CashietCaseStudy/>}/>
+      <Route path='/aiBanc' element={<AiBanc/>}/>
+
       </Routes>
 
 

@@ -56,7 +56,7 @@ function Projects() {
               <p className="progressive">PROGRESSIVE WEB APP</p>
               <h3>AIBANC</h3>
               <p className="cashiet"></p>
-              <Link to="/cashietcasestudy" className="readmore">
+              <Link to="/aiBanc" className="readmore">
                 {" "}
                 Read Case Study
               </Link>
