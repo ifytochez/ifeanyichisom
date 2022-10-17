@@ -2,8 +2,9 @@ import React from "react";
 import HerosectionBanner from "./images/Herosectionimage.png";
 import "./Projects.css";
 import Frame from "./images/Frame2.png";
-import Laptop from "./images/Group689.png";
-import Cashiet from "./images/Cashiet-Banner.png";
+import Laptop from "./images/Borderless.png";
+import Cashiet from "./images/Cashiet.png";
+import ContactImage from "./images/contactImage.png";
 import Aibanc from "./images/aibanc.png";
 import { Link } from "react-router-dom";
 
@@ -38,8 +39,8 @@ function Projects() {
             </div>
 
             <div className="case">
-              <p className="progressive">PROGRESSIVE WEB APP</p>
-              <h3>Borderless Redesign</h3>
+              {/* <p className="progressive">PROGRESSIVE WEB APP</p> */}
+              <h3>Borderless (Redesign)</h3>
               <p className="cashiet">
                 Reinventing job search experinces and encouraging Easy and
                 Seamless job application and recruitment.
@@ -53,9 +54,12 @@ function Projects() {
 
           <div className="project-row project-rows">
             <div className="case">
-              <p className="progressive">PROGRESSIVE WEB APP</p>
+              {/* <p className="progressive">PROGRESSIVE WEB APP</p> */}
               <h3>AIBANC</h3>
-              <p className="cashiet"></p>
+              <p className="cashiet">
+                AiBanc provides credit to salaried workers across the country
+                through its Mobile application.
+              </p>
               <Link to="/cashietcasestudy" className="readmore">
                 {" "}
                 Read Case Study
@@ -73,7 +77,7 @@ function Projects() {
             </div>
 
             <div className="case">
-              <p className="progressive">PROGRESSIVE WEB APP</p>
+              {/* <p className="progressive">PROGRESSIVE WEB APP</p> */}
               <h3>Cashiet Website Redesign</h3>
               <p className="cashiet">
                 Cashiet is a marketplace that let Nigerians buy products and pay
@@ -89,19 +93,23 @@ function Projects() {
 
         <div className="contact" id="contact">
           <div className="contact-container">
-            <p className="h3">This doesn't have to end here</p>
-            <p className="work">
-              If you'd like to work together or make any further enquiries{" "}
-            </p>
-            <p>or just looking to connect. Get in Touch</p>
-
-            <div className="contact-details">
-              <button>
-                <a href="mailto:ifeanyichisomjane@gmail.com">
-                  ifeanyichisomjane@gmail.com
-                </a>
-              </button>
+            <div className="contact-content-container">
+              <p className="h3">
+                This doesn't need to end here. Let's design something
+                spectacular
+              </p>
+              <div className="contact-details">
+                <button>
+                  <a href="mailto:ifeanyichisomjane@gmail.com">
+                    ifeanyichisomjane@gmail.com
+                  </a>
+                </button>
+              </div>
             </div>
+          </div>
+
+          <div className="contact-image">
+            <img className="" src={ContactImage} alt="" />
           </div>
         </div>
       </div>
