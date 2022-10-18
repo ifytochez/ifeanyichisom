@@ -60,7 +60,7 @@ function Projects() {
                 AiBanc provides credit to salaried workers across the country
                 through its Mobile application.
               </p>
-              <Link to="/cashietcasestudy" className="readmore">
+              <Link to="/aibanc" className="readmore">
                 {" "}
                 Read Case Study
               </Link>
