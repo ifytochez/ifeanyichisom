@@ -1,0 +1,291 @@
+.aibanc_container{
+    background: #020733;
+}
+.blue_line_cont{
+    padding: 40px;
+}
+.blue_line{
+    border: 4px solid #cee6ff;
+    border-radius: 1px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+
+}
+.project_name{
+    font-size: Inter;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    color: #b2d7fe;
+    padding-bottom: 25px;
+}
+.aibanc_heading{
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 64px;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 4rem;
+}
+.aibancBg{
+    width: 100%;
+}
+.overview_container{
+    background: #020733;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 70px;
+
+}
+.left{
+    width: 49%;
+}
+.right{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project_info{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 50px;
+text-align: left;
+color: #FFFFFF;
+padding-top: 15px;
+padding-bottom: 20px;
+}
+.skill_description{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 20px;
+padding-bottom: 20px;
+width: 80%;
+}
+.col_one,
+.col_one li{
+    list-style-type: none;
+    color: #FFFFFF;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-align: left;
+color: #FFFFFF;
+}
+.list_one{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #C2C2C2;
+}
+.list_two{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+.text_description{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 45px;
+color: #EDEDED;
+text-align: left;
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
+.text_white{
+    color: #ffffff;
+    text-align: left;
+    line-height: 40px;
+}
+.highlight{
+    color: #EDEDED;
+}
+
+.phoneimg{
+    width: 70%;
+}
+.project_objective{
+    background: #020733;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #FFFFFF;
+}
+.objective_display{
+    padding: 40px;
+}
+.obj_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 25px;
+
+}
+.obj_title{
+    width: 50%;
+    color: #ffffff;
+
+}
+.obj_text{
+    width: 75%;
+}
+.obj_text li,
+.obj_text{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 45px;
+color: #EDEDED;
+}
+ul{
+    margin-left: 25px;
+}
+.solutions_container{
+    background: #ffffff;
+    padding: 50px;
+}
+.solutions_title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+width: 55%;
+margin: auto;
+text-align: left;
+color: #020733;
+}
+.solution_text{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 45px;
+color: #5B5971;
+width: 55%;
+text-align: left;
+margin: auto;
+}
+.img_box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 40px;
+    width: 55%;
+    margin: auto;
+    padding-top: 30px;
+}
+/* .img_one
+.img_two{
+
+} */
+
+@media screen and (max-width: 567px){
+    .aibanc_heading{
+        
+        font-size: 40px;
+        
+    }
+    
+    .overview_container{
+        display: flex;
+       flex-direction: column;
+    
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project_info{
+    font-size: 40px;
+    }
+    .skill_description{
+        width: 90%;
+    }
+    .list_one{
+    font-size: 16px;
+    }
+    .list_two{
+        font-size: 20px;
+    }
+    .text_description{
+    font-size: 18px;
+    line-height: 35px;
+    
+    }
+    .text_white{
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .phoneimg{
+        width: 100%;
+    }
+   
+    .obj_item{
+        display: flex;
+       flex-direction: column;
+      
+    
+    }
+    .obj_title{
+        width: 100%;
+        color: #ffffff;
+        padding-bottom: 20px;
+    
+    }
+    .obj_text{
+        width: 100%;
+    }
+    .obj_text li,
+    .obj_text{
+    font-size: 18px;
+    }
+    ul{
+        margin-left: 25px;
+    }
+    
+    .solutions_title{
+    font-size: 35px;
+    width: 100%;
+   
+    }
+    .solution_text{
+   
+    font-size: 18px;
+    width: 100%;
+   
+    }
+    .img_box{
+        display: flex;
+        column-gap: 40px;
+        width: 100%;
+        
+    }
+}
