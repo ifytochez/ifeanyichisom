@@ -25,15 +25,15 @@ function NavBar() {
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <NavLink to="/" onClick={closeMenu}>
+            <Link to="/" onClick={closeMenu}>
               Projects
-            </NavLink>
+            </Link>
           </li>
 
           <li className="nav-item">
-            <NavLink to="about" onClick={closeMenu}>
+            <Link to="about" onClick={closeMenu}>
               About
-            </NavLink>
+            </Link>
           </li>
 
           <li className="nav-item">

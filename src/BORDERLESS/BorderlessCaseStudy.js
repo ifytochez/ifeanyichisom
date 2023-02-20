@@ -108,8 +108,8 @@ function BorderlessCaseStudy() {
           <h3>Problem Diagnosis 1</h3>
           <p className="p7">
             Our research first centered around understanding the experiences of
-            <br /> the people currently using the web app, issues they are
-            facing, and why they have incomplete profiles. I formulated
+            <br className="br" /> the people currently using the web app, issues
+            they are facing, and why they have incomplete profiles. I formulated
             questions for an online survey that 28 people answered. Here are
             some of the responses;
           </p>
@@ -128,8 +128,8 @@ function BorderlessCaseStudy() {
             <div className="vertical_line"></div>
             <p className="statement_p">
               One of the statements that stood out was: “ Uploading my resume
-              and having to fill out details already contained in it, <br /> is
-              a redundant profile creating process.”
+              and having to fill out details already contained in it,{" "}
+              <br className="br" /> is a redundant profile creating process.”
             </p>
           </div>
         </div>
@@ -328,7 +328,7 @@ function BorderlessCaseStudy() {
                   goals while working on this project.
                 </p>
               </div>
-              <div className="learninga">
+              <div className="learninga three">
                 <span>3</span>
                 <p className="paragraph">
                   I learn how to use new tools like Rewind and Heap analytics
