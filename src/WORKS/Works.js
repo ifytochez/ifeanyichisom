@@ -6,10 +6,6 @@ function Works() {
   return (
     <div className="project-container">
       <div className="project-contact">
-        {/* <div className="content">
-          <h3>Selected Projects</h3>
-        </div> */}
-
         <div className="project-row">
           <div className="case-image">
             <img
@@ -26,10 +22,9 @@ function Works() {
               Reinventing job search experinces and encouraging Easy and
               Seamless job application and recruitment.
             </p>
-            <Link to="/borderlesscasestudy" className="readmore">
-              {" "}
+            <a href="/borderlesscasestudy" className="readmore">
               Read Case Study
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -41,10 +36,9 @@ function Works() {
               AiBanc provides credit to s alaried workers across the country
               through its Mobile application.
             </p>
-            <Link to="/aibanc" className="readmore">
-              {" "}
+            <a href="/aibanc" className="readmore">
               Read Case Study
-            </Link>
+            </a>
           </div>
 
           <div className="casee-image">
