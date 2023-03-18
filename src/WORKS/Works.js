@@ -1,8 +1,10 @@
 import React from "react";
 import "./Works.css";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Works() {
+  const navigate = useNavigate();
   return (
     <div className="project-container">
       <div className="project-contact">
@@ -16,9 +18,12 @@ function Works() {
               businesses complete visibility of their candidates, manage hiring
               process and save valuable time.
             </p>
-            <a href="/borderlesscasestudy" className="readmore">
+            <button
+              className="readmore"
+              onClick={() => navigate("/borderlesscasestudy")}
+            >
               Read Case Study
-            </a>
+            </button>
           </div>
 
           <div className="casee-image">
@@ -41,9 +46,9 @@ function Works() {
               personal loans, it generates a credit line for users who can
               decide to use at once or withdraw at intervals
             </p>
-            <a href="/aibanc" className="readmore">
+            <button className="readmore" onClick={() => navigate("/aibanc")}>
               Read Case Study
-            </a>
+            </button>
           </div>
 
           <div className="casee-image">

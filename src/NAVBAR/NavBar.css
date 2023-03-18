@@ -19,7 +19,6 @@ a {
   margin-left: 20px;
 }
 .navbar {
-  /* height: 15vh; */
   line-height: 10vh;
   display: flex;
   justify-content: space-between;
@@ -30,6 +29,24 @@ a {
   top: 0;
   z-index: 1;
   width: 100%;
+}
+.navbar__dark {
+  background: #020733;
+  line-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+.navbar__dark ul li a {
+  color: white;
+}
+.navbar__dark img {
+  color: white;
 }
 .nav-links {
   display: flex;

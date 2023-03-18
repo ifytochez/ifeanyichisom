@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import NavBar from "./NAVBAR/NavBar";
 import Projects from "./PROJECT/Projects";
 import About from "./ABOUT/About";
 import BorderlessCaseStudy from "./BORDERLESS/BorderlessCaseStudy";
@@ -10,10 +9,8 @@ import Footer from "./FOOTER/Footer";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        {/* <NavBar /> */}
-
+    <div className="App">
+      <Router>
         <Routes>
           <Route path="/" element={<Projects />} />
           <Route path="/about" element={<About />} />
@@ -25,8 +22,8 @@ function App() {
         </Routes>
 
         <Footer />
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 

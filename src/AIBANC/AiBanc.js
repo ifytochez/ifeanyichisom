@@ -1,11 +1,15 @@
 import React from "react";
+import { useState } from "react";
 import NavBar from "../NAVBAR/NavBar";
+import ScrollTop from "../utils/ScrollTop";
 import "./AiBanc.css";
 
 const AiBanc = () => {
+  ScrollTop();
+  const [background, setbackground] = useState(true);
   return (
     <>
-      <NavBar />
+      <NavBar bgColor={background} />
       <div className="aibanc_container">
         <div className="blue_line_cont">
           <div className="blue_line"></div>

@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./BorderlessCaseStudy.css";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import Contact from "../CONTACT/Contact";
 import NavBar from "../NAVBAR/NavBar";
+import ScrollTop from "../utils/ScrollTop";
 
 function BorderlessCaseStudy() {
+  ScrollTop();
+  const [background, setbackground] = useState(true);
   return (
     <>
-      <NavBar style={{ background: "red" }} />
+      <NavBar bgColor={background} />
       <div className="borderless_cont">
         <div className="borderless_landing_page">
           <div className="horizontal_line"></div>
