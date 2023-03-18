@@ -1,25 +1,31 @@
 .font-link {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Public Sans", sans-serif;
 }
 
-.about-container {
+.about {
   display: flex;
+  flex-direction: column;
   width: 100%;
-  color: #fff;
-  padding-top: 50px;
-  background: black;
+  color: black;
+  padding-top: 80px;
+  background: white;
+}
+.about-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 .about-image {
   width: 40%;
-  margin: auto;
 }
 .about-image img {
-  width: 100%;
-  height: 700px;
+  max-width: 100%;
+  height: auto;
 }
 .aboutwriteup {
-  width: 40%;
-  margin: auto;
+  width: 50%;
+  /* margin: auto; */
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -28,7 +34,7 @@
   text-align: left;
 }
 .aboutwriteup h1 {
-  font-size: 50px;
+  font-size: 55px;
   padding-bottom: 40px;
   font-family: "Inter", sans-serif;
 }
@@ -36,10 +42,60 @@
   color: #caac05;
 }
 .aboutwriteup p {
-  padding-bottom: 20px;
+  padding-bottom: 17px;
   font-family: "Inter", sans-serif;
 }
-
+.experience {
+  width: 90%;
+  margin: auto;
+  padding-top: 120px;
+}
+.experience h1 {
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 78px;
+  line-height: 80px;
+  padding-bottom: 100px;
+  color: #cccccc;
+}
+.experience1 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
+}
+.experience1_left {
+  width: 46%;
+}
+.experience1_right {
+  width: 42%;
+}
+.head {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #252d3e;
+  padding-bottom: 20px;
+}
+.head span {
+  font-size: 20px;
+  font-weight: 400;
+}
+.second {
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #252d3e;
+}
+.experience1_right p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 35px;
+  color: #252d3e;
+}
 @media screen and (max-width: 940px) {
   .about-container {
     flex-direction: column;

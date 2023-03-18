@@ -10,7 +10,7 @@ function NavBar() {
   return (
     <nav className="navbar">
       <Link to="/">
-        <img className="logo" src="/images/logo.png" alt="logo" />
+        <img className="logo" src="/images/logo1.png" alt="logo" />
       </Link>
 
       <ul
@@ -30,11 +30,9 @@ function NavBar() {
             Resume
           </a>
         </li>
-        <button className="navbar-btn">
-          <a href="mailto:ifeanyichisomjane@gmail.com">
-            ifeanyichisomjane@gmail.com
-          </a>
-        </button>
+        <li>
+          <a href="mailto:ifeanyichisomjane@gmail.com">Contact me</a>
+        </li>
       </ul>
       <button className="mobile-menu-icon" onClick={() => setMobile(!Mobile)}>
         {Mobile ? <FaTimes /> : <GiHamburgerMenu />}

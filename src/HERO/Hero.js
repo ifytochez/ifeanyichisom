@@ -1,23 +1,34 @@
 import React from "react";
 import "./Hero.css";
+import { BsFillStarFill } from "react-icons/bs";
+import NavBar from "../NAVBAR/NavBar";
 
 function Hero() {
   return (
-    <div className="hero">
-      <div className="contentt">
-        <h1>Hello there,</h1>
-        <h2 className="hero-paragraph1">
-          I'm <span>Chisom.</span> I help teams design simple and accessible
-          digital experiences and product that translate business objectives
-          into solutions.
-        </h2>
-        <p className="hero-paragraph2">
-          I push products to the next level through a design process that
-          includes data-backed user research, rapid iteration, and visually
-          stunning user-focused UI.
-        </p>
+    <>
+      <NavBar />
+      <div className="hero">
+        <div className="contentt">
+          <h1>
+            Chisom Ifeanyi{" "}
+            <span>
+              <BsFillStarFill style={{ transform: "rotate(90deg)" }} />
+            </span>
+          </h1>
+          <h2 className="hero-paragraph1">Digital Product Designer.</h2>
+
+          {/* <img src="/images/write 1.png" alt="" /> */}
+        </div>
+
+        {
+          <div className="marquee-w" id="scroll-container">
+            <p id="scroll-text">
+              UX DESIGNER - UX RESEARCH - INTERFACE DESIGN - PRODUCT DESIGN
+            </p>
+          </div>
+        }
       </div>
-    </div>
+    </>
   );
 }
 

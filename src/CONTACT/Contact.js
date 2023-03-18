@@ -3,21 +3,19 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <div className="contact" id="contact">
-      <div className="contact-container">
-        <p className="h3">This doesn't have to end here</p>
-        <p className="work">
-          If you'd like to work together or make any further enquiries{" "}
+    <div className="reach_out">
+      <div className="reachout_writeup">
+        <p>
+          This doesn’t need to end here. Let's design something spectacular!
         </p>
-        <p>or just looking to connect. Get in Touch</p>
-
-        <div className="contact-details">
-          <button>
-            <a href="mailto:ifeanyichisomjane@gmail.com">
-              ifeanyichisomjane@gmail.com
-            </a>
-          </button>
-        </div>
+        <button>
+          <a href="mailto:ifeanyichisomjane@gmail.com">
+            ifeanyichisomjane@gmail.com
+          </a>
+        </button>
+      </div>
+      <div className="reachout_pix">
+        <img src="/images/borderless13.png" alt="" />
       </div>
     </div>
   );
