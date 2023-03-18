@@ -20,13 +20,11 @@ function Hero() {
           {/* <img src="/images/write 1.png" alt="" /> */}
         </div>
 
-        {
-          <div className="marquee-w" id="scroll-container">
-            <p id="scroll-text">
-              UX DESIGNER - UX RESEARCH - INTERFACE DESIGN - PRODUCT DESIGN
-            </p>
-          </div>
-        }
+        <div className="marquee-w" id="scroll-container">
+          <p id="scroll-text">
+            UX DESIGNER - UX RESEARCH - INTERFACE DESIGN - PRODUCT DESIGN
+          </p>
+        </div>
       </div>
     </>
   );
