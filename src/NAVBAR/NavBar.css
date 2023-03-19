@@ -93,7 +93,7 @@ button {
     display: flex;
     position: absolute;
     top: 13px;
-    left: 5px;
+    left: 0px;
   }
   .nav-links {
     display: none;
