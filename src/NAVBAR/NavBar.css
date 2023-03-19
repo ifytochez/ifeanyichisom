@@ -92,8 +92,8 @@ button {
     width: 15%;
     display: flex;
     position: absolute;
-    top: 16px;
-    left: 35px;
+    top: 13px;
+    left: 25px;
   }
   .nav-links {
     display: none;
