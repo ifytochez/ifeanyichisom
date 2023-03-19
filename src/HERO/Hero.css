@@ -90,6 +90,9 @@
   .contentt {
     height: 40vh;
   }
+  .contentt span {
+    margin-left: 20px;
+  }
   .contentt h1 {
     font-weight: 400;
     font-size: 38px;
