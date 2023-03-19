@@ -84,7 +84,7 @@
 }
 
 @media only screen and (max-width: 480px) and (min-width: 320px) {
-  /* .contentt h1 {
+  .contentt h1 {
     font-weight: 400;
     font-size: 48px;
     line-height: 100px;
@@ -94,5 +94,11 @@
     font-size: 38px;
     padding-top: 20px;
     line-height: 88px;
-  } */
+  }
+  .one {
+    font-size: 9px;
+  }
+  .two {
+    font-size: 9px;
+  }
 }

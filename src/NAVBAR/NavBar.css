@@ -89,10 +89,10 @@ button {
 
 @media only screen and (max-width: 480px) and (min-width: 320px) {
   .logo {
-    width: 20%;
+    width: 15%;
     display: flex;
     position: absolute;
-    top: 15px;
+    top: 27px;
     left: 35px;
   }
   .nav-links {
@@ -118,11 +118,14 @@ button {
     display: block;
     position: absolute;
     right: 30px;
-    font-size: 40px;
+    font-size: 30px;
   }
   .navbar {
     height: 10vh;
     line-height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
