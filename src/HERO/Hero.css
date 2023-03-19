@@ -85,7 +85,7 @@
 
 @media only screen and (max-width: 480px) and (min-width: 320px) {
   .contentt {
-    height: 80%;
+    height: 80vh;
   }
   .contentt h1 {
     font-weight: 400;
