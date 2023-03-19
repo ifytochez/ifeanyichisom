@@ -99,7 +99,7 @@
   }
   .project-row {
     flex-direction: column-reverse;
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 50px 0px;
   }
   .casee-image {
     width: 100%;
@@ -115,8 +115,8 @@
   }
   .case h3,
   .case h2 {
-    font-size: 23px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 30px;
     font-weight: 700;
     padding-top: 25px;
     text-align: center;
