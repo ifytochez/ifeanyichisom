@@ -143,18 +143,19 @@
   }
   .head {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 17px;
     line-height: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
   .head span {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
   }
   .second {
     font-weight: 500;
-    font-size: 13px;
-    line-height: 13px;
+    font-size: 11px;
+    line-height: 11px;
+    padding-bottom: 15px;
   }
   .experience1_right p {
     font-size: 15px;
