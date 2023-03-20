@@ -59,7 +59,7 @@
 }
 .overview_cont {
   display: flex;
-  width: 100%;
+  width: 80%;
   padding-top: 80px;
 }
 .overview {
@@ -132,8 +132,15 @@
   line-height: 45px;
   color: #ededed;
 }
+.p5 span {
+  font-weight: bold;
+}
 .left ul {
   padding-left: 40px;
+}
+.left ul li {
+  list-style-type: disc;
+  padding-bottom: 15px;
 }
 .p6 {
   padding-top: 50px;
@@ -398,6 +405,10 @@
 .validation2 ol {
   padding-top: 20px;
   padding-left: 30px;
+}
+.validation2 ol li {
+  list-style-type: disc;
+  padding-bottom: 15px;
 }
 .result_cont {
   padding-top: 60px;
@@ -687,8 +698,7 @@
     flex-direction: column;
   }
   .session3_image {
-    width: 100%;
-    margin-bottom: 20px;
+    display: none;
   }
   .session3_writeup {
     width: 100%;

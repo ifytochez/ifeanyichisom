@@ -69,22 +69,27 @@ function BorderlessCaseStudy() {
                 <p className="p4">Setting the stage</p>
                 <p className="p5">
                   On joining Borderlesshr, I and Jessica were tasked with
-                  redesigning the platform but before we jumped into Figma we
-                  needed to understand what exactly was wrong with the current
-                  platform, this led to a brainstorming session with the
-                  stakeholders and we discovered:
+                  <span>redesigning</span> the platform but before we jumped
+                  into Figma we needed to understand what exactly was wrong with
+                  the current platform, this led to a{" "}
+                  <span>brainstorming session with the stakeholders</span> and
+                  we discovered:
                   <ul>
                     <li>
                       More than 50% of the tech talents who signed up on the
-                      platform had incomplete profiles
+                      platform had <span>incomplete profiles</span>
                     </li>
                     <li>
-                      It was difficult for talents to get matched to businesses,
-                      defeating the company's primary purpose.
+                      It was{" "}
+                      <span>
+                        difficult for talents to get matched to businesses
+                      </span>{" "}
+                      , defeating the company's primary purpose.
                     </li>
                     <li>
                       Businesses needed a lot of human support to complete a
-                      recruitment circle which cost the company a lot of money
+                      recruitment circle which{" "}
+                      <span>cost the company a lot of money</span>
                     </li>
                   </ul>
                 </p>
