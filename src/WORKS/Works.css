@@ -119,11 +119,10 @@
     line-height: 30px;
     font-weight: 700;
     padding-top: 25px;
-    text-align: center;
   }
   .readmore {
     width: 50%;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 30px;
   }
 }
