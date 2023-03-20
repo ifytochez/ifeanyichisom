@@ -604,15 +604,15 @@
     padding-top: 40px;
   }
   .question1 {
-    width: 55%;
-    padding: 40px 10px;
+    width: 100%;
+    padding: 20px 10px;
     font-size: 17px;
     line-height: 30px;
     margin-bottom: 20px;
   }
   .question2 {
-    width: 55%;
-    padding: 50px 10px;
+    width: 100%;
+    padding: 20px 10px;
     font-size: 17px;
     line-height: 30px;
   }
