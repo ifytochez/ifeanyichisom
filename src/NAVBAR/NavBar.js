@@ -11,9 +11,10 @@ function NavBar(props) {
 
   return (
     <nav
-      className={`
-     ${bgColor === true ? "navbar__dark" : "navbar"}
-`}
+      className="navbar"
+      //       className={`
+      //      ${bgColor === true ? "navbar__dark" : "navbar"}
+      // `}
     >
       <Link to="/">
         <img className="logo" src="/images/logo1.png" alt="logo" />
