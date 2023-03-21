@@ -8,16 +8,20 @@ function Hero() {
     <>
       <NavBar />
       <div className="hero">
-        <div className="contentt">
-          <h1>
-            Chisom Ifeanyi{" "}
-            <span>
-              <BsFillStarFill style={{ transform: "rotate(90deg)" }} />
-            </span>
-          </h1>
-          <h2 className="hero-paragraph1">Digital Product Designer.</h2>
+        <div className="contents">
+          <div className="contentt">
+            <h1>
+              Chisom Ifeanyi{" "}
+              <span>
+                <BsFillStarFill style={{ transform: "rotate(90deg)" }} />
+              </span>
+            </h1>
+            <h2 className="hero-paragraph1">Digital Product Designer.</h2>
+          </div>
 
-          {/* <img src="/images/write 1.png" alt="" /> */}
+          <div className="pix">
+            <img src="/images/write 1.png" alt="" />
+          </div>
         </div>
 
         <div className="margue-cont">

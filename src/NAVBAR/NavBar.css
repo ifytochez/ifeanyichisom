@@ -17,6 +17,14 @@ a {
   width: 23%;
   display: flex;
   margin-left: 20px;
+  background: url("/public/images/logo1.png");
+}
+
+.logo1 {
+  width: 23%;
+  display: flex;
+  margin-left: 20px;
+  background: url("/public/images/logo.png");
 }
 .navbar {
   line-height: 10vh;

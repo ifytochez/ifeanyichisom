@@ -4,6 +4,22 @@
   height: 84vh;
   width: 100%;
 }
+.contents {
+  height: 90%;
+  /* position: relative; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.pix {
+  width: 20%;
+  /* position: absolute; */
+}
+.pix img {
+  width: 100%;
+  height: 100%;
+  left: 10px;
+}
 .contentt {
   height: 90%;
   display: flex;
@@ -12,13 +28,13 @@
   width: 90%;
   margin: auto;
   text-align: start;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 65px;
 }
 .contentt h1 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 800;
-  font-size: 88px;
+  font-size: 86px;
   line-height: 100px;
   color: white;
   display: flex;
