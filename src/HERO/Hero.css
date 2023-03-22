@@ -5,15 +5,13 @@
   width: 100%;
 }
 .contents {
-  height: 90%;
-  /* position: relative; */
   width: 100%;
+  height: 90%;
   display: flex;
   justify-content: space-between;
 }
 .pix {
   width: 20%;
-  /* position: absolute; */
 }
 .pix img {
   width: 100%;
@@ -21,11 +19,11 @@
   left: 10px;
 }
 .contentt {
+  width: 90%;
   height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 90%;
   margin: auto;
   text-align: start;
   padding: 0px 0px 0px 65px;
@@ -105,6 +103,11 @@
   }
   .contentt {
     height: 40vh;
+    padding: 0px 0px 0px 30px;
+    width: 80%;
+  }
+  .pix {
+    width: 20%;
   }
   .contentt span {
     margin-left: 20px;
