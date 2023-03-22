@@ -48,7 +48,12 @@ function NavBar(props) {
           <a href="mailto:ifeanyichisomjane@gmail.com">Contact me</a>
         </li>
       </ul>
-      <button className="mobile-menu-icon" onClick={() => setMobile(!Mobile)}>
+      <button
+        className={`${
+          bgColor === true ? "mobile-menu-icons" : "mobile-menu-icon"
+        }`}
+        onClick={() => setMobile(!Mobile)}
+      >
         {Mobile ? <FaTimes /> : <GiHamburgerMenu />}
       </button>
     </nav>
