@@ -102,12 +102,12 @@
     height: 54vh;
   }
   .contents {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .contentt {
     height: 40vh;
     padding: 0px 0px 0px 30px;
-    width: 90%;
+    width: 100%;
   }
   .pix {
     width: 100%;
