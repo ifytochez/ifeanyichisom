@@ -70,12 +70,18 @@ a {
 .nav-links li :hover {
   color: #caac05;
 }
+.nav-links-mobile {
+  display: none;
+}
 button {
   border: none;
   background: none;
   font-size: 20px;
 }
 .mobile-menu-icon {
+  display: none;
+}
+.mobile-menu-icons {
   display: none;
 }
 .navbar-btn {
