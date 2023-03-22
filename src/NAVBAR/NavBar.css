@@ -39,7 +39,7 @@ a {
   width: 23%;
   display: flex;
   margin-left: 20px;
-  -webkit-animation-duration: 1s;
+  /* -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
@@ -47,14 +47,14 @@ a {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
-  color: white;
+  color: white; */
 }
 
 .logo1 {
   width: 23%;
   display: flex;
   margin-left: 20px;
-  -webkit-animation-duration: 1s;
+  /* -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
@@ -62,12 +62,14 @@ a {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
-  color: white;
+  color: white; */
 }
-.logo:hover, .logo1:hover {
-  cursor: pointer;
+.logo:hover,
+.logo1:hover {
+  width: 28%;
+  /* cursor: pointer;
   animation-name: bounce;
-  -moz-animation-name: bounce;
+  -moz-animation-name: bounce; */
 }
 .navbar {
   line-height: 10vh;
