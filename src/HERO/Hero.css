@@ -107,7 +107,7 @@
   }
   .contentt {
     height: 50%;
-    padding: 0px 0px 0px 30px;
+    padding: 30px 0px 0px 30px;
     width: 100%;
   }
   .pix {
@@ -117,7 +117,7 @@
     justify-content: flex-end;
   }
   .pix img {
-    width: 50%;
+    width: 30%;
   }
 
   .contentt span {
