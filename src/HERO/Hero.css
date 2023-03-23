@@ -100,22 +100,24 @@
 @media only screen and (max-width: 480px) and (min-width: 320px) {
   .hero {
     height: 54vh;
+    padding-bottom: 30px;
   }
   .contents {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .contentt {
-    height: 40vh;
+    height: 50%;
     padding: 0px 0px 0px 30px;
     width: 100%;
   }
   .pix {
     width: 100%;
+    height: 50%;
     display: flex;
     justify-content: flex-end;
   }
   .pix img {
-    width: 30%;
+    width: 50%;
   }
 
   .contentt span {
@@ -131,7 +133,7 @@
     font-weight: 400;
     font-size: 38px;
     padding-top: 20px;
-    line-height: 40px;
+    line-height: 50px;
   }
   .one {
     font-size: 10px;

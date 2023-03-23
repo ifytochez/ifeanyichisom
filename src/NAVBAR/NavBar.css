@@ -82,12 +82,6 @@ a {
 .logo1:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.3s;
-
-  /* When the animation is finished, start again */
-  /* animation-iteration-count: infinite; */
-  /* cursor: pointer;
-  animation-name: bounce;
-  -moz-animation-name: bounce; */
 }
 .navbar {
   line-height: 10vh;
@@ -119,6 +113,7 @@ a {
 .navbar__dark img {
   color: white;
 }
+
 .nav-links {
   display: flex;
   width: 50%;
@@ -163,7 +158,12 @@ button {
   color: white;
   font-size: 15px;
 }
-
+.active {
+  border-bottom: 3px solid #caac05;
+}
+.active li a {
+  color: #caac05;
+}
 @media only screen and (max-width: 480px) and (min-width: 320px) {
   .logo {
     width: 15%;

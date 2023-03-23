@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa";
 import "./NavBar.css";
@@ -26,17 +26,17 @@ function NavBar(props) {
         className={Mobile ? "nav-links-mobile" : "nav-links"}
         onClick={() => setMobile(false)}
       >
-        <Link to="/">
+        <NavLink to="/">
           <li>
             <a href="/">Projects</a>{" "}
           </li>{" "}
-        </Link>
+        </NavLink>
 
-        <Link to="/about">
+        <NavLink to="/about">
           <li>
             <a href="about">About Me</a>
           </li>
-        </Link>
+        </NavLink>
 
         <li>
           {" "}
