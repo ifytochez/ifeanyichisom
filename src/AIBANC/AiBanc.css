@@ -134,12 +134,15 @@
 .product_vision {
   padding: 0 0 70px 70px;
 }
-.project_content,
+
 .customers_content,
 .product_vision_content {
   width: 55%;
 }
-
+.project_content {
+  width: 55%;
+  padding-top: 40px;
+}
 .product_vision_title {
   font-weight: 700;
   font-size: 43px;
@@ -175,7 +178,6 @@
   align-items: center;
 }
 .pro_img {
-  /* margin-top: 35px; */
   width: 100%;
   height: 573px;
 }
@@ -333,7 +335,7 @@ ul {
 .persona_text {
   width: 70%;
   font-weight: 400;
-  font-size: 21px;
+  font-size: 20px;
   line-height: 45px;
   color: white;
 }
@@ -459,9 +461,6 @@ ul {
   justify-content: flex-end;
   align-items: flex-start;
 }
-/* .product_content_img_containers img {
-  width: 60%;
-} */
 .validate_content_text,
 .impact_text {
   font-family: "Inter";
@@ -534,29 +533,6 @@ ul {
 .illustration_section img {
   width: 100%;
 }
-/* .illustration_section_container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-.illustration_title {
-  font-weight: 600;
-  font-size: 50px;
-  line-height: 50px;
-  color: #ffffff;
-}
-.illustration_section_text {
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 40px;
-  color: #000000;
-  background: #ffffff;
-  border-radius: 5px;
-  width: 415px;
-  height: 154px;
-  padding: 20px 10px;
-  margin: 50px auto;
-}
 .illustration_section_text_two {
   font-weight: 400;
   font-size: 25px;
@@ -568,8 +544,8 @@ ul {
   height: 215px;
   padding: 20px 10px;
   margin: 40px auto;
-} */
-.dotted_arrow {
+}
+*/ .dotted_arrow {
   margin-top: -50px;
 }
 .solMockup {
@@ -650,13 +626,13 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 40px;
+    padding-top: 20px;
   }
   .text_white {
     line-height: 40px;
     font-weight: 400;
     font-size: 16px;
   }
-
   .phoneimg {
     width: 100%;
     display: flex;
@@ -664,7 +640,7 @@ ul {
     align-items: center;
   }
   .project_objective {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 50px;
   }
   .pj_summary,
@@ -691,8 +667,9 @@ ul {
   .project_title,
   .product_vision_title {
     font-weight: 500;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 40px;
+    text-align: center;
   }
   .project_text,
   .persona_text,
@@ -772,11 +749,16 @@ ul {
     padding: 20px;
     text-align: left;
   }
+  .contt {
+    width: 100%;
+    margin: auto;
+  }
+
   .solutions_title {
     font-weight: 500;
     font-size: 30px;
     line-height: 35px;
-    text-align: left;
+    text-align: center;
   }
   .solution_text {
     font-weight: 400;
