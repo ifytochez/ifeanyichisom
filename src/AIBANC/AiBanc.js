@@ -145,7 +145,7 @@ const AiBanc = () => {
             <p className="solution_text">
               After meeting with the stakeholders and determing the goal of the
               product, I decided to conduct a competitor analysis, this provided
-              inside look at similar products and assess to standard user
+              inside look at similar products and     assess to standard user
               experience patterns that become evident in the field
             </p>
             <div className="img_box">
