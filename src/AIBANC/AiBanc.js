@@ -7,7 +7,7 @@ import "./AiBanc.css";
 
 const AiBanc = () => {
   ScrollTop();
-  const [background, setbackground] = useState(true);
+  const [background] = useState(true);
   return (
     <>
       <NavBar bgColor={background} />
