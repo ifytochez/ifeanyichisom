@@ -296,7 +296,7 @@ const AiBanc = () => {
         </section>
         <section className="validate_solution">
           <div>
-            <div className="user_Persona_intro">
+            <div className="user_Personal_intro">
               <h2 className="projectt_title">Validating Solution</h2>
               <p className="personal_text">
                 I led a few moderated usability tests with 6 users. Our aim was

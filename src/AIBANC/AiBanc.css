@@ -331,7 +331,7 @@ ul {
   margin: auto;
   padding: 0 100px;
 }
-.user_Persona_intro {
+.user_Persona_intro, .user_Personal_intro {
   margin: 50px auto;
 }
 .persona_text {
@@ -828,6 +828,9 @@ ul {
     padding-bottom: 30px;
     width: 100%;
   }
+  .user_Personal_intro{
+    width: 100%;
+  }
   .persona_text {
     width: 100%;
   }
@@ -897,7 +900,7 @@ ul {
    padding-top: 40px;
   }
   .product_content_img_containers img{
-    width: 50%;
+    width: 100%;
   }
    .projectt_title{
     font-weight: 500;
@@ -958,7 +961,7 @@ ul {
   }
   .impact_intro {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   .impact_title {
     font-weight: 600;
