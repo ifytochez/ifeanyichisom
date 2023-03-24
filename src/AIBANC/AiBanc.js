@@ -22,7 +22,7 @@ const AiBanc = () => {
           </h1>
           <div>
             <img
-              src="/images/aibancBg.svg"
+              src="/images/AibancHero.png"
               className="aibancBg"
               alt="aibancBg"
             />
@@ -49,7 +49,7 @@ const AiBanc = () => {
             <div>
               <p className="text_description">
                 {" "}
-                AiBanc provides credit to s alaried workers across the country
+                AiBanc provides credit to salaried workers across the country
                 through its Mobile application. This app doesn’t only offer
                 personal loans, it generates a credit line for users who can
                 decide to use at once or withdraw at intervals. AiBanc helps
@@ -57,63 +57,102 @@ const AiBanc = () => {
                 credit that they deserve.
               </p>
               <p className="text_white">
-                <span className="highlight">I was the the sole designer,</span>I
-                collaborated with a team of four (4) developers with feedback
-                from stakeholders
+                I was the the sole designer on the team,{" "}
+                <span className="highlight">
+                  I collaborated with a team of four (4) developers with
+                  feedback from stakeholders
+                </span>
               </p>
             </div>
           </div>
           <div className="right">
             <img
-              src="/images/abancoverviewmockup.svg"
+              src="/images/Vector.png"
               className="phoneimg"
               alt="aibanc-phone"
             />
           </div>
         </section>
         <section className="project_objective">
-          <div className="blue_line"></div>
-          <div className="objective_display">
-            <div className="obj_item">
-              <h2 className="obj_title">Meet with the stackholders</h2>
-              <p className="obj_text">
-                Stakeholders were conducting transactions manually using paper,
-                emails and excel for documentation. This made reconcilation
-                difficult. Credit request was stressfull as paper documents had
-                to be signed first
+          <div className="white_line_cont">
+            <div className="white_line"></div>
+          </div>
+          <div className="pj_summary">
+            <div className="project_content">
+              <h2 className="project_title">Understanding the problem</h2>
+              <p className="project_text">
+                On joining AiBanc, I conducted a brain storming session with the
+                team to understand the pain-points and how we can solve them. It
+                was revealed that:
               </p>
-            </div>
-            <div className="obj_item">
-              <h2 className="obj_title">Goals and Objective</h2>
-              <ul className="obj_text">
+              <ul className="project_content_list">
                 <li>
-                  To design a solution that help user access credit easily
+                  Most of its customer base were friends and refferals from
+                  friends and <span>transactions were done offline.</span>
                 </li>
                 <li>
-                  To design a solution that enables a seamless credit
-                  liquidation
+                  Stakeholders were conducting transactions manually using
+                  paper, emails and excel for documentation. This made
+                  <span>reconcilation difficult.</span>
                 </li>
-                <li>To design a solution for manual repayment</li>
                 <li>
-                  To design a solution for stakeholders to have an overview of
-                  transcations
+                  Credit request was{" "}
+                  <span>
+                    stressfull as paper documents had to be signed first.
+                  </span>{" "}
+                </li>
+                <li>
+                  <span>Companys wants to reach a larger audience</span>
                 </li>
               </ul>
             </div>
+            <div className="project_content_img_container">
+              <img src="/images/pjObj.png" className="pro_img" alt="" />
+            </div>
           </div>
         </section>
+        <section className="product_vision">
+          <div className="product_vision_content">
+            <h3 className="product_vision_title">
+              Product Vision and Solution
+            </h3>
+            <p className="product_vision_text">
+              From these findings, we decided as a product to identify key
+              business goals:
+            </p>
+            <ul className="product_vision_list">
+              <li>We want users to access credit easily</li>
+              <li>We want a seamless credit liquidation</li>
+              <li>We want users to payback credits manually</li>
+              <li>We want an overview of transcations conducted on the app</li>
+              <li>We want to scale the product and get more users</li>
+            </ul>
+          </div>
+          <div className="product_content_img_container">
+            <img
+              src="/images/circlevector.svg"
+              className="circle_img"
+              alt="circle"
+            />
+          </div>
+        </section>
+
         <section className="solutions_container">
-          <h1 className="solutions_title">Understanding Existing Solutions</h1>
-          <p className="solution_text">
-            Stakeholders were conducting transactions manually using paper,
-            emails and excel for documentation. This made reconcilation
-            difficult. Credit request was stressfull as paper documents had to
-            be signed first
-          </p>
-          <div className="img_box">
-            <img src="/images/mockupp.svg" className="img_one" alt="" />
-            <img src="/images/mockuppp.svg" className="img_two" alt="" />
-            <img src="/images/mockuppp.svg" className="img_two" alt="" />
+          <div className="contt">
+            <h1 className="solutions_title">
+              Understanding Existing Solutions
+            </h1>
+            <p className="solution_text">
+              After meeting with the stakeholders and determing the goal of the
+              product, I decided to conduct a competitor analysis, this provided
+              inside look at similar products and assess to standard user
+              experience patterns that become evident in the field
+            </p>
+            <div className="img_box">
+              <img src="/images/mockupp.svg" className="img_one" alt="" />
+              <img src="/images/mockuppp.svg" className="img_two" alt="" />
+              <img src="/images/mockuppp.svg" className="img_two" alt="" />
+            </div>
           </div>
         </section>
 
@@ -219,7 +258,7 @@ const AiBanc = () => {
                 Interctions with app functionalities . I created userflows to
                 give me clarity on screens to be designed,
                 <b>
-                  but due to the non-discloure atteached to them I couldn’t
+                  but due to the non-disclosure atteached to them I couldn’t
                   present them here.
                 </b>
               </p>
@@ -242,21 +281,31 @@ const AiBanc = () => {
           <div className="the_Solution_img_box">
             <img src="/images/sol1.svg" className="the_Solution_img" alt="" />
             <img src="/images/sol2.svg" className="the_Solution_img" alt="" />
-            <img src="/images/sol1.svg" className="the_Solution_img" alt="" />
+            <img src="/images/sol3.svg" className="the_Solution_img" alt="" />
+            <img
+              src="/images/solframe4.png"
+              className="the_Solution_img"
+              alt=""
+            />
+            <img
+              src="/images/solframe5.png"
+              className="the_Solution_img"
+              alt=""
+            />
           </div>
         </section>
         <section className="validate_solution">
           <div>
             <div className="user_Persona_intro">
-              <h2 className="project_title">Validate Solution</h2>
-              <p className="persona_text">
+              <h2 className="projectt_title">Validating Solution</h2>
+              <p className="personal_text">
                 I led a few moderated usability tests with 6 users. Our aim was
                 to find out if the solution solved the problems and how easy
                 users could request for credit
               </p>
             </div>
             <div className="validateBox">
-              <div className="product_content_img_container">
+              <div className="product_content_img_containers">
                 <img
                   src="/images/valmockup.svg"
                   className=""
@@ -272,16 +321,18 @@ const AiBanc = () => {
                     To determine a user’s credit limit (the maximum amount a
                     user should get) we tried to use third party Api which can
                     scan through users financial histroy and how much they earn
-                    in few mintues, but most banks in nigeria denies these third
-                    party companies access to users record. With no access to
-                    users financial histroy we could not generate credit limit
-                    for users and offer them the credit.{" "}
+                    in few mintues, <span>but most banks in</span> Nigeria{" "}
+                    <span>
+                      denies these third party companies access to users record.
+                    </span>{" "}
+                    With no access to users financial histroy we could not
+                    generate credit limit for users and offer them the credit.{" "}
                   </p>
                 </div>
                 <div className="Val_img_container">
                   <div className="square_img_container">
                     <img
-                      src="./images/twosquares.png"
+                      src="/images/twosquares.png"
                       className="square_img"
                       alt="circle"
                     />
@@ -292,26 +343,12 @@ const AiBanc = () => {
           </div>
         </section>
         <section className="illustration_section">
-          <div className="illustration_section_container">
-            <div className="illustration_section_content">
-              <h2 className="illustration_title">Solutions</h2>
-              <p className="illustration_section_text">
-                If third party api fails, app should generate a credit limit of
-                user ₦20,000
-              </p>
-              <p className="illustration_section_text_two">
-                Introduced “ account upgrade “ feature. Users can upgrade there
-                account by uploading their bank statement
-              </p>
-            </div>
-            <div>
-              <img src="/images/Lineone.svg" className="dotted_arrow" alt="" />
-              <br />
-              <img src="/images/Linetwo.svg" className="dotted_arrow" alt="" />
-            </div>
-            <div>
-              <img src="/images/solmockup.svg" className="solMockup" alt="" />
-            </div>
+          <div>
+            <img
+              src="/images/solutiongroupmb.png"
+              className="mobileSolution"
+              alt=""
+            />
           </div>
         </section>
         <section className="impact_section">
@@ -367,6 +404,7 @@ const AiBanc = () => {
             </div>
           </div>
         </section>
+
         <Contact />
       </div>
     </>
