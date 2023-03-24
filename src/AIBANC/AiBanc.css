@@ -713,6 +713,7 @@ ul {
   }
   .customers_content {
     width: 100%;
+    padding-top: 30px;
   }
   .customer_img_container {
     width: 100%;
@@ -950,19 +951,21 @@ ul {
     font-weight: 500;
     font-size: 25px;
     line-height: 40px;
+    text-align: center;
   }
   .impact_section {
     padding: 20px;
   }
   .impact_intro {
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .impact_title {
     font-weight: 600;
     font-size: 30px;
     line-height: 40px;
-    margin-bottom: 50px;
+    padding-top: 20px;
+    margin-bottom: 30px;
   }
   .impact_row {
     display: flex;
@@ -972,6 +975,7 @@ ul {
   .impact_col {
     width: 100%;
     color: #ffffff;
+    padding-bottom: 50px;
   }
   .col_item {
     display: flex;
