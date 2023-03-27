@@ -364,9 +364,12 @@
   width: 90%;
   margin: auto;
 }
-.validation1,
-.validation2 {
+.validation1{
   width: 60%;
+}
+.validation2{
+  width: 60%;
+  padding-top: 70px;
 }
 .validation1 h3,
 .validation2 h3 {

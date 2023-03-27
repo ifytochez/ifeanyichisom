@@ -69,7 +69,7 @@ function BorderlessCaseStudy() {
                 <p className="p4">Setting the stage</p>
                 <p className="p5">
                   On joining Borderlesshr, I and Jessica were tasked with
-                  <span>redesigning</span> the platform but before we jumped
+                  <span> redesigning</span> the platform but before we jumped
                   into Figma we needed to understand what exactly was wrong with
                   the current platform, this led to a{" "}
                   <span>brainstorming session with the stakeholders</span> and
