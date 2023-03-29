@@ -175,7 +175,7 @@
 }
 
 .project_content_img_container {
-  width: 33%;
+  width: 36%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -194,7 +194,7 @@
   width: 50%;
 }
 .customer_img_container {
-  width: 40%;
+  width: 43%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -244,7 +244,7 @@ ul {
   margin-right: -70px;
 }
 .mobileSolution{
-  width: 70%;
+  width: 90%;
 }
 .solutions_container {
   background: #ffffff;
@@ -431,7 +431,7 @@ ul {
   text-align: center;
 }
 .the_Solution_img {
-  width: 80%;
+  width: 85%;
   margin: auto;
   margin: 70px auto;
 }
@@ -466,7 +466,7 @@ ul {
   align-items: flex-start
 }
 .product_content_img_containers img{
-  width: 85%;
+  width: 94%;
   
 }
 .validate_content_text,
@@ -539,7 +539,7 @@ ul {
   padding: 70px 0px;
 }
 .illustration_section img {
-  width: 85%;
+  width: 93%;
 }
 .illustration_section_text_two {
   font-weight: 400;
@@ -758,9 +758,7 @@ ul {
     flex-direction: column;
   }
   .circle_img {
-    width: 500px;
-    height: 450px;
-    margin-top: -100px;
+    display: none;
   }
   .square_img {
     display: none;

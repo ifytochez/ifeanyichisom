@@ -125,15 +125,18 @@
   }
   .contentt h1 {
     font-weight: 400;
-    font-size: 38px;
+    font-size: 40px;
     line-height: 40px;
     -webkit-text-stroke: 1px black;
   }
   .contentt h2 {
     font-weight: 400;
-    font-size: 38px;
+    font-size: 40px;
     padding-top: 20px;
     line-height: 50px;
+  }
+  .margue-cont {
+    height: 13%;
   }
   .one {
     font-size: 10px;
