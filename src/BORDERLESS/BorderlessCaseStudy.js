@@ -333,7 +333,7 @@ function BorderlessCaseStudy() {
               </div>
               <div className="one-line">
                 <p>New accounts</p>
-                <p>created</p>
+                <p className="shift">created</p>
               </div>
             </div>
 
@@ -347,7 +347,7 @@ function BorderlessCaseStudy() {
               </div>
               <div className="one-line">
                 <p>Completed</p>
-                <p>profiles</p>
+                <p className="shift">profiles</p>
               </div>
             </div>
 
@@ -361,7 +361,7 @@ function BorderlessCaseStudy() {
               </div>
               <div className="one-line">
                 <p>Existing profiles</p>
-                <p>Completed</p>
+                <p className="shift">Completed</p>
               </div>
             </div>
           </div>

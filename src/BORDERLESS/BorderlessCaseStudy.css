@@ -783,8 +783,8 @@
     margin-bottom: 60px;
   }
   .result1 p {
-    font-weight: 400;
-    font-size: 22px;
+    font-weight: 500;
+    font-size: 25px;
     line-height: 45px;
   }
   .result1 button {
@@ -850,5 +850,8 @@
   }
   .one-line {
     display: flex;
+  }
+  .shift {
+    padding-left: 20px;
   }
 }
