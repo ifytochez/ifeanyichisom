@@ -364,10 +364,10 @@
   width: 90%;
   margin: auto;
 }
-.validation1{
+.validation1 {
   width: 60%;
 }
-.validation2{
+.validation2 {
   width: 60%;
   padding-top: 70px;
 }
@@ -784,8 +784,8 @@
   }
   .result1 p {
     font-weight: 400;
-    font-size: 18px;
-    line-height: 35px;
+    font-size: 22px;
+    line-height: 45px;
   }
   .result1 button {
     width: 40px;
@@ -847,5 +847,8 @@
     width: 70%;
     margin: auto;
     text-align: center;
+  }
+  .one-line {
+    display: flex;
   }
 }

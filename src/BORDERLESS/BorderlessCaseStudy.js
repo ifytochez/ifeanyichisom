@@ -331,8 +331,10 @@ function BorderlessCaseStudy() {
                 </button>
                 <span>63</span>
               </div>
-              <p>New accounts</p>
-              <p>created</p>
+              <div className="one-line">
+                <p>New accounts</p>
+                <p>created</p>
+              </div>
             </div>
 
             <div className="result1">
@@ -343,8 +345,10 @@ function BorderlessCaseStudy() {
                 </button>
                 <span>87%</span>
               </div>
-              <p>Completed</p>
-              <p>profiles</p>
+              <div className="one-line">
+                <p>Completed</p>
+                <p>profiles</p>
+              </div>
             </div>
 
             <div className="result1">
@@ -355,8 +359,10 @@ function BorderlessCaseStudy() {
                 </button>
                 <span>22%</span>
               </div>
-              <p>Existing profiles</p>
-              <p>Completed</p>
+              <div className="one-line">
+                <p>Existing profiles</p>
+                <p>Completed</p>
+              </div>
             </div>
           </div>
 
