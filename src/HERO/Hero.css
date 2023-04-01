@@ -161,10 +161,10 @@
     line-height: 50px;
   }
   .one {
-    font-size: 14px;
+    font-size: 11px;
   }
   .two {
-    font-size: 14px;
+    font-size: 11px;
   }
 }
 @media only screen and (max-width: 940px) and (min-width: 480px) {
