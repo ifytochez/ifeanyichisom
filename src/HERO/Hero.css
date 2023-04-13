@@ -168,10 +168,48 @@
   }
 }
 @media only screen and (max-width: 940px) and (min-width: 480px) {
+  .hero {
+    height: 68vh;
+    padding-bottom: 30px;
+  }
+  .contents {
+    height: 100%;
+  }
+  .pix {
+    width: 25%;
+  }
+  .contentt {
+    width: 75%;
+    height: 100%;
+    padding: 0px 0px 0px 65px;
+  }
+  .contentt h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 90px;
+    -webkit-text-stroke: 2px black;
+  }
+  .contentt h2 {
+    font-weight: 700;
+    font-size: 72px;
+    padding-top: 20px;
+    line-height: 88px;
+  }
+  .margue-cont {
+    height: 12%;
+  }
   .one {
-    font-size: 20px;
+    font-size: 13px;
   }
   .two {
-    font-size: 20px;
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 1123px) and (min-width: 944px) {
+  .one {
+    font-size: 13px;
+  }
+  .two {
+    font-size: 13px;
   }
 }

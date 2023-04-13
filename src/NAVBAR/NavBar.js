@@ -40,7 +40,7 @@ function NavBar(props) {
 
         <li>
           {" "}
-          <a href="https://drive.google.com/file/d/1QnmHIlq-5FbxA6yjnBsQlNc-aGICG1ke/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1vx6vWU8HouYdPn8lwMJ1Xu4oNBfxHa-9/view?usp=drivesdk">
             Resume
           </a>
         </li>
