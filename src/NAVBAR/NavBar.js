@@ -8,6 +8,15 @@ function NavBar(props) {
   const bgColor = props.bgColor;
   const [Mobile, setMobile] = useState(false);
 
+  function downloadResume() {
+    const link = document.createElement("a");
+    link.href = "/Chisom_Ifeanyi_Resume.pdf";
+    link.download = "Chisom_Ifeanyi_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
   return (
     <nav
       className={`
@@ -40,7 +49,7 @@ function NavBar(props) {
 
         <li>
           {" "}
-          <a href="https://drive.google.com/file/d/1vx6vWU8HouYdPn8lwMJ1Xu4oNBfxHa-9/view?usp=drivesdk">
+          <a href="#" onClick={downloadResume}>
             Resume
           </a>
         </li>
