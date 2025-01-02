@@ -8,14 +8,14 @@ function NavBar(props) {
   const bgColor = props.bgColor;
   const [Mobile, setMobile] = useState(false);
 
-  function downloadResume() {
-    const link = document.createElement("a");
-    link.href = "/Chisom_Ifeanyi_Resume.pdf";
-    link.download = "Chisom_Ifeanyi_Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  }
+  // function downloadResume() {
+  //   const link = document.createElement("a");
+  //   link.href = "/Chisom_Ifeanyi_Resume.pdf";
+  //   link.download = "Chisom_Ifeanyi_Resume.pdf";
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // }
 
   return (
     <nav
@@ -49,9 +49,7 @@ function NavBar(props) {
 
         <li>
           {" "}
-          <a href="#" onClick={downloadResume}>
-            Resume
-          </a>
+          <a href="/Chisom_Ifeanyi_Resume.pdf">Resume</a>
         </li>
         <li>
           <a href="mailto:ifeanyichisomjane@gmail.com">Contact me</a>
